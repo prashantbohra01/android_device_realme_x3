@@ -12,7 +12,7 @@
         "target_path": "kernel/realme/x3"
     },   
     {
-        "repository": "Panchajanya1999/azure-clang",
-        "target_path": "prebuilts/clang/host/linux-x86/azure-clang",
+        "repository":  "ElectroPerf/atom-x-clang",
+        "target_path": "prebuilts/clang/host/linux-x86/clang-15.0",
     }
 ]
