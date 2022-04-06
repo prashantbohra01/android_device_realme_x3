@@ -62,3 +62,8 @@ persist.vendor.ims.disableDebugLogs=1
 persist.vendor.ims.disableIMSLogs=1
 persist.vendor.ims.disableQXDMLogs=1
 ro.telephony.default_network=22,22
+
+ro.spark.device.name=Realme X3 Series
+ro.spark.group.url=https://t.me/SparkOSCommunity
+ro.spark.maintainer=Patriot
+ro.spark.maintainer.username=Patriot06

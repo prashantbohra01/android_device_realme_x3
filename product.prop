@@ -78,7 +78,3 @@ persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
-
-# PPUI Stuff
-ro.pixelplusui.maintainer=Patriot06
-org.pixelplusui.device=Realme X3

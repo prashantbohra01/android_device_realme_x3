@@ -21,22 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/realme/x3/device.mk)
 
-# Inherit some common PixelPlus-UI stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-WITH_GAPPS := true
-TARGET_BOOT_ANIMATION_RES := 1440
-
-# PixelPlus-UI Official Stuff
-CUSTOM_BUILD_TYPE := OFFICIAL
-IS_PHONE := true
+# Inherit some common Spark OS stuff.
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP  := true
 
 # Device identifier
-PRODUCT_NAME := aosp_x3
+PRODUCT_NAME := spark_x3
 PRODUCT_DEVICE := x3
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := X3
